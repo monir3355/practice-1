@@ -69,9 +69,14 @@ header nav ul li a{
     color: #757575;
     margin-bottom: 30px;
 }
+
+/* Main Section */
+.main-section{
+    margin: 130px 200px;
+}
+
 /* About Section */
 .about-section{
-    margin: 130px 200px;
     background: #FFF8F3;
     padding: 130px;
     text-align: center;
@@ -96,4 +101,69 @@ header nav ul li a{
     color: #474747;
     font-size: 20px;
     font-weight: 600;
+}
+
+/* What-i-do */
+.What-i-do{
+    text-align: center;
+    margin-top: 130px;
+}
+.what-i-title{
+    font-size: 35px;
+}
+.what-i-description{
+    color: #757575;
+    margin: 20px 0 50px 0;
+}
+.skill-box{
+    display: flex; 
+    justify-content: space-around;
+    gap: 24px;
+}
+.box-4{
+    padding: 24px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+}
+.box-title{
+    margin: 15px 0;
+}
+.box-description{
+    color: #757575;
+}
+/* summary title */
+.summary-title{
+    font-size: 35px;
+    margin: 130px 0;
+    text-align: center;
+}
+.summary-box-2{
+    display: flex;
+    gap: 24px;
+}
+.resume-topic{
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+.edu-topic{
+    font-size: 24px;
+    font-weight: 600;
+}
+.uni-topic{
+    font-weight: 500;
+    font-size: 20px;
+    color: #757575;
+    margin: 10px 0;
+}
+.edu-description{
+    color: #757575;
+    margin-bottom: 30px;
+}
+.all-boxes{
+    margin-top: 15px;
+}
+.edu-btn{
+    margin: 30px;
+    text-align: center;
 }
